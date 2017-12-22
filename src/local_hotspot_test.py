@@ -5,7 +5,7 @@ import time
 
 
 from mobly import asserts
-from mobly import mobly_g3
+from mobly import test_runner
 from utils import android_base_test
 
 SSID = 'SSID'
@@ -68,4 +68,4 @@ class LocalHotspotTest(android_base_test.AndroidBaseTest):
 
 
 if __name__ == '__main__':
-  mobly_g3.main()
+  test_runner.main()
