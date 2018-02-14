@@ -16,7 +16,7 @@
 
 from vts.runners.host import test_runner
 
-from vts.testcases.template.mobly_test import MoblyTest
+from vts.testcases.template.mobly.mobly_test import MoblyTest
 from vts.testcases.nbu.src.bluetooth_test import BluetoothTest
 
 
