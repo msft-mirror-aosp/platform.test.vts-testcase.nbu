@@ -16,7 +16,7 @@
 <configuration description="Config for VTS Next Billion User Bluetooth Low Energy test cases">
     <option name="config-descriptor:metadata" key="plan" value="vts-p2p" />
     <multi_target_preparer class="com.android.tradefed.targetprep.VtsPythonVirtualenvPreparer">
-        <option name="dep-module" value="mobly" />
+        <option name="dep-module" value="mobly==1.6.1" />
     </multi_target_preparer>
 
     <test class="com.android.tradefed.testtype.VtsMultiDeviceTest">
