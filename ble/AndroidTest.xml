@@ -23,6 +23,6 @@
         <option name="test-module-name" value="VtsNbuBle" />
         <option name="test-timeout" value="10m" />
         <option name="runtime-hint" value="3m" />
-        <option name="test-case-path" value="vts/testcases/nbu/ble/Ble" />
+        <option name="mobly-test-module" value="vts.testcases.nbu.src.ble_test.BleTest" />
     </test>
 </configuration>

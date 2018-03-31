@@ -23,6 +23,6 @@
         <option name="test-module-name" value="VtsNbuBluetooth" />
         <option name="test-timeout" value="10m" />
         <option name="runtime-hint" value="1m" />
-        <option name="test-case-path" value="vts/testcases/nbu/bluetooth/Bluetooth" />
+        <option name="mobly-test-module" value="vts.testcases.nbu.src.bluetooth_test.BluetoothTest" />
     </test>
 </configuration>
