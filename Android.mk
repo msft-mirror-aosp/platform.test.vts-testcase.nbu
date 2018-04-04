@@ -18,6 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := VtsNbuBle
-VTS_CONFIG_SRC_DIR := testcases/nbu/ble
+LOCAL_MODULE := VtsNbu
+VTS_CONFIG_SRC_DIR := testcases/nbu
 -include test/vts/tools/build/Android.host_config.mk
