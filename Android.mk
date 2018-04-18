@@ -14,11 +14,10 @@
 # limitations under the License.
 #
 
-from vts.runners.host import test_runner
+LOCAL_PATH := $(call my-dir)
 
-from vts.testcases.template.mobly.mobly_test import MoblyTest
-from vts.testcases.nbu.src.bluetooth_test import BluetoothTest
+include $(CLEAR_VARS)
 
-
-if __name__ == "__main__":
-    test_runner.main()
+LOCAL_MODULE := VtsNbu
+VTS_CONFIG_SRC_DIR := testcases/nbu
+-include test/vts/tools/build/Android.host_config.mk
